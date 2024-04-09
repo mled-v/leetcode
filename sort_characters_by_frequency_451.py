@@ -41,7 +41,6 @@ def frequencySort(s):
 
 
     sorted_dict = dict(sorted(my_dict.items(), key=lambda x:x[1], reverse=True))
-    print(sorted_dict)
 
     for key, value in sorted_dict.items():
         if value > 1:
